@@ -8,12 +8,16 @@
 
 import CoreGraphics
 
-protocol CustomCellProtocol {
+protocol CustomTableCell {
     static func height() -> CGFloat
     static func identifier() -> String
 }
 
-extension CustomCellProtocol {
+protocol CustomCollectionCell: CustomTableCell {
+    static func width() -> CGFloat
+}
+
+extension CustomTableCell {
     static func identifier() -> String {
         return String(describing: Self.self)
     }

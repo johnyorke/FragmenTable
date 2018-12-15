@@ -8,14 +8,14 @@
 
 import UIKit
 
-class GameImageFragment: GameConfigurableCell {
+class GameImageFragment: TableFragment, GameConfigurable {
     
     @IBOutlet weak var gameImageView: UIImageView!
     
     static func height() -> CGFloat {
         return 240
     }
-        
+    
     func configure(with game: Game) {
         self.gameImageView.image = UIImage(named: game.imageName)
     }

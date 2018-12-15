@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GameReleaseDateFragment: GameConfigurableCell {
+class GameReleaseDateFragment: TableFragment, GameConfigurable {
     
     @IBOutlet private weak var gameReleaseDateLabel: UILabel!
     

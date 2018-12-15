@@ -8,9 +8,9 @@
 
 import UIKit
 
-typealias GameConfigurableCell = UITableViewCell & GameConfigurable & CustomCellProtocol
-
 class GameViewController: UITableViewController {
+    
+    typealias GameConfigurableCell = TableFragment & GameConfigurable
     
     let game = Game.init(name: "Stardew Valley",
                          releaseDate: "2017",
@@ -34,7 +34,7 @@ class GameViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellType = GameFragmentLayout.cellType(for: indexPath.row)
         let cell = tableView.dequeueReusableCell(withIdentifier: cellType.identifier()) as! GameConfigurableCell
-        cell.configure(with: self.game)
+        cell.configure(with: game)
         return cell
     }
     
@@ -42,6 +42,6 @@ class GameViewController: UITableViewController {
         let cellType = GameFragmentLayout.cellType(for: indexPath.row)
         return cellType.height()
     }
-
+    
 }
 

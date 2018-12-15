@@ -14,16 +14,17 @@
 		DF7ABD3421C58C4500889504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7ABD3221C58C4500889504 /* LaunchScreen.storyboard */; };
 		DF7ABD3C21C58EB700889504 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD3B21C58EB700889504 /* Game.swift */; };
 		DF7ABD3E21C58F6400889504 /* GameFragmentLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD3D21C58F6400889504 /* GameFragmentLayout.swift */; };
-		DF7ABD4021C5904700889504 /* CustomCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD3F21C5904700889504 /* CustomCellProtocol.swift */; };
+		DF7ABD4021C5904700889504 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD3F21C5904700889504 /* CustomTableCell.swift */; };
 		DF7ABD4221C5930700889504 /* GameImageFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD4121C5930700889504 /* GameImageFragment.swift */; };
 		DF7ABD4521C5932000889504 /* GameReleaseDateFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD4421C5932000889504 /* GameReleaseDateFragment.swift */; };
 		DF7ABD4721C5933D00889504 /* GamePlatformListFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD4621C5933D00889504 /* GamePlatformListFragment.swift */; };
 		DF7ABD4921C5934C00889504 /* GameTitleFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD4821C5934C00889504 /* GameTitleFragment.swift */; };
-		DF7ABD4B21C596B200889504 /* GameConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD4A21C596B200889504 /* GameConfigurable.swift */; };
 		DF7ABD4D21C597E200889504 /* GameImageFragment.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7ABD4C21C597E200889504 /* GameImageFragment.xib */; };
 		DF7ABD5321C59A7500889504 /* GameTitleFragment.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7ABD5221C59A7500889504 /* GameTitleFragment.xib */; };
 		DF7ABD5521C59C2900889504 /* GameReleaseDateFragment.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7ABD5421C59C2900889504 /* GameReleaseDateFragment.xib */; };
 		DF7ABD5721C59EE400889504 /* GamePlatformListFragment.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7ABD5621C59EE400889504 /* GamePlatformListFragment.xib */; };
+		DF7ABD5921C5A44F00889504 /* FragmentLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD5821C5A44F00889504 /* FragmentLayout.swift */; };
+		DF7ABD5D21C5B5B900889504 /* GameConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7ABD5C21C5B5B900889504 /* GameConfigurable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,16 +37,17 @@
 		DF7ABD3521C58C4500889504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF7ABD3B21C58EB700889504 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		DF7ABD3D21C58F6400889504 /* GameFragmentLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFragmentLayout.swift; sourceTree = "<group>"; };
-		DF7ABD3F21C5904700889504 /* CustomCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellProtocol.swift; sourceTree = "<group>"; };
+		DF7ABD3F21C5904700889504 /* CustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
 		DF7ABD4121C5930700889504 /* GameImageFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImageFragment.swift; sourceTree = "<group>"; };
 		DF7ABD4421C5932000889504 /* GameReleaseDateFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameReleaseDateFragment.swift; sourceTree = "<group>"; };
 		DF7ABD4621C5933D00889504 /* GamePlatformListFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlatformListFragment.swift; sourceTree = "<group>"; };
 		DF7ABD4821C5934C00889504 /* GameTitleFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTitleFragment.swift; sourceTree = "<group>"; };
-		DF7ABD4A21C596B200889504 /* GameConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfigurable.swift; sourceTree = "<group>"; };
 		DF7ABD4C21C597E200889504 /* GameImageFragment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameImageFragment.xib; sourceTree = "<group>"; };
 		DF7ABD5221C59A7500889504 /* GameTitleFragment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTitleFragment.xib; sourceTree = "<group>"; };
 		DF7ABD5421C59C2900889504 /* GameReleaseDateFragment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameReleaseDateFragment.xib; sourceTree = "<group>"; };
 		DF7ABD5621C59EE400889504 /* GamePlatformListFragment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GamePlatformListFragment.xib; sourceTree = "<group>"; };
+		DF7ABD5821C5A44F00889504 /* FragmentLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentLayout.swift; sourceTree = "<group>"; };
+		DF7ABD5C21C5B5B900889504 /* GameConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfigurable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +82,8 @@
 			children = (
 				DF7ABD2921C58C4300889504 /* AppDelegate.swift */,
 				DF7ABD2B21C58C4300889504 /* GameViewController.swift */,
-				DF7ABD4A21C596B200889504 /* GameConfigurable.swift */,
-				DF7ABD3F21C5904700889504 /* CustomCellProtocol.swift */,
-				DF7ABD3B21C58EB700889504 /* Game.swift */,
-				DF7ABD3D21C58F6400889504 /* GameFragmentLayout.swift */,
+				DF7ABD5E21C5B5FB00889504 /* Game */,
+				DF7ABD5F21C5B61200889504 /* Fragment */,
 				DF7ABD4321C5930F00889504 /* Cells */,
 				DF7ABD2D21C58C4300889504 /* Main.storyboard */,
 				DF7ABD3021C58C4500889504 /* Assets.xcassets */,
@@ -96,6 +96,7 @@
 		DF7ABD4321C5930F00889504 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				DF7ABD3F21C5904700889504 /* CustomTableCell.swift */,
 				DF7ABD4E21C5995700889504 /* Image */,
 				DF7ABD5121C5998000889504 /* Title */,
 				DF7ABD4F21C5996300889504 /* Release Date */,
@@ -138,6 +139,24 @@
 				DF7ABD5221C59A7500889504 /* GameTitleFragment.xib */,
 			);
 			path = Title;
+			sourceTree = "<group>";
+		};
+		DF7ABD5E21C5B5FB00889504 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				DF7ABD3B21C58EB700889504 /* Game.swift */,
+				DF7ABD5C21C5B5B900889504 /* GameConfigurable.swift */,
+				DF7ABD3D21C58F6400889504 /* GameFragmentLayout.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		DF7ABD5F21C5B61200889504 /* Fragment */ = {
+			isa = PBXGroup;
+			children = (
+				DF7ABD5821C5A44F00889504 /* FragmentLayout.swift */,
+			);
+			path = Fragment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,13 +236,14 @@
 			files = (
 				DF7ABD4721C5933D00889504 /* GamePlatformListFragment.swift in Sources */,
 				DF7ABD2C21C58C4300889504 /* GameViewController.swift in Sources */,
+				DF7ABD5921C5A44F00889504 /* FragmentLayout.swift in Sources */,
 				DF7ABD3C21C58EB700889504 /* Game.swift in Sources */,
+				DF7ABD5D21C5B5B900889504 /* GameConfigurable.swift in Sources */,
 				DF7ABD4521C5932000889504 /* GameReleaseDateFragment.swift in Sources */,
 				DF7ABD4921C5934C00889504 /* GameTitleFragment.swift in Sources */,
 				DF7ABD2A21C58C4300889504 /* AppDelegate.swift in Sources */,
 				DF7ABD3E21C58F6400889504 /* GameFragmentLayout.swift in Sources */,
-				DF7ABD4021C5904700889504 /* CustomCellProtocol.swift in Sources */,
-				DF7ABD4B21C596B200889504 /* GameConfigurable.swift in Sources */,
+				DF7ABD4021C5904700889504 /* CustomTableCell.swift in Sources */,
 				DF7ABD4221C5930700889504 /* GameImageFragment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

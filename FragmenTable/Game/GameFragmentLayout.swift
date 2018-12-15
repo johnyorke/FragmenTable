@@ -8,13 +8,14 @@
 
 import UIKit
 
-enum GameFragmentLayout: Int, CaseIterable {
+enum GameFragmentLayout: Int, FragmentLayout {
+    
     case image = 0
     case title
     case releaseDate
     case platforms
     
-    static func cellType(for row: Int) -> GameConfigurableCell.Type {
+    static func cellType(for row: Int) -> Fragment.Type {
         switch GameFragmentLayout(rawValue: row)! {
         case .image:
             return GameImageFragment.self

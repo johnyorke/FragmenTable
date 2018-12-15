@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GamePlatformListFragment: GameConfigurableCell {
+class GamePlatformListFragment: TableFragment, GameConfigurable {
     
     @IBOutlet weak var gamePlatformsLabel: UILabel!
     

@@ -8,12 +8,12 @@
 
 import UIKit
 
-class GameTitleFragment: GameConfigurableCell {
+class GameTitleFragment: TableFragment, GameConfigurable {
     
     @IBOutlet weak var gameTitleLabel: UILabel!
     
     static func height() -> CGFloat {
-        return 44
+        return 34
     }
     
     func configure(with game: Game) {
