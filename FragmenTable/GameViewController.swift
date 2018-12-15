@@ -10,7 +10,7 @@ import UIKit
 
 typealias GameConfigurableCell = UITableViewCell & GameConfigurable & CustomCellProtocol
 
-class ViewController: UITableViewController {
+class GameViewController: UITableViewController {
     
     let game = Game.init(name: "Stardew Valley",
                          releaseDate: "2017",
