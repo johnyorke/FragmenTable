@@ -13,7 +13,7 @@ class GameReleaseDateFragment: GameConfigurableCell {
     @IBOutlet private weak var gameReleaseDateLabel: UILabel!
     
     static func height() -> CGFloat {
-        return UITableView.automaticDimension
+        return 28
     }
     
     func configure(with game: Game) {

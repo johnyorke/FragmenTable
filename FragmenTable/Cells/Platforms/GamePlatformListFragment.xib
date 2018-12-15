@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASH-0X-JBu">
-                        <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                        <rect key="frame" x="16" y="5.5" width="343" height="32.5"/>
                         <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                         <color key="textColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
@@ -28,7 +28,7 @@
                     <constraint firstAttribute="trailing" secondItem="ASH-0X-JBu" secondAttribute="trailing" constant="16" id="48i-qv-Tpg"/>
                     <constraint firstItem="ASH-0X-JBu" firstAttribute="leading" secondItem="JZJ-Oq-ADI" secondAttribute="leading" constant="16" id="DeT-j8-yMs"/>
                     <constraint firstItem="ASH-0X-JBu" firstAttribute="centerY" secondItem="JZJ-Oq-ADI" secondAttribute="centerY" id="b5z-HB-NVs"/>
-                    <constraint firstItem="ASH-0X-JBu" firstAttribute="height" secondItem="JZJ-Oq-ADI" secondAttribute="height" id="bG0-hg-lq1"/>
+                    <constraint firstItem="ASH-0X-JBu" firstAttribute="height" secondItem="JZJ-Oq-ADI" secondAttribute="height" multiplier="0.75" id="bG0-hg-lq1"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

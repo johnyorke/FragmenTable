@@ -13,7 +13,7 @@ class GameTitleFragment: GameConfigurableCell {
     @IBOutlet weak var gameTitleLabel: UILabel!
     
     static func height() -> CGFloat {
-        return UITableView.automaticDimension
+        return 44
     }
     
     func configure(with game: Game) {
