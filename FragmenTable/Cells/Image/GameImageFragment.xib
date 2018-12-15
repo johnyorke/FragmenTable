@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="219" id="rmr-8E-Ttf" customClass="GameImageFragment" customModule="FragmenTable" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rmr-8E-Ttf" id="9rD-qk-PYD">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="218.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cQS-NT-7tq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="218.5"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cQS-NT-7tq" firstAttribute="centerX" secondItem="9rD-qk-PYD" secondAttribute="centerX" id="4BE-bM-Yz7"/>
+                    <constraint firstItem="cQS-NT-7tq" firstAttribute="height" secondItem="9rD-qk-PYD" secondAttribute="height" id="ZJp-bs-gnQ"/>
+                    <constraint firstItem="cQS-NT-7tq" firstAttribute="width" secondItem="9rD-qk-PYD" secondAttribute="width" id="h9p-tO-d9x"/>
+                    <constraint firstItem="cQS-NT-7tq" firstAttribute="centerY" secondItem="9rD-qk-PYD" secondAttribute="centerY" id="oBM-X8-APn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="gameImageView" destination="cQS-NT-7tq" id="xb7-sJ-qkZ"/>
+            </connections>
+            <point key="canvasLocation" x="-138.40000000000001" y="106.59670164917542"/>
+        </tableViewCell>
+    </objects>
+</document>
